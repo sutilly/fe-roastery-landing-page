@@ -2,6 +2,10 @@
 
 /* Fonts */
 
+body {
+    position: relative;
+}
+
 body,
 p {
     font-family: 'Work Sans', sans-serif;
@@ -47,6 +51,14 @@ section {
 
 /* Helper Class */
 
+
+nav {
+    -webkit-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+}
+
 .d-relative {
     position: relative;
 }
@@ -91,6 +103,10 @@ section {
 
 #home .row {
     height: 80%;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: #dc3545;
 }
 
 /* ==== About ==== */
@@ -185,4 +201,12 @@ section {
 
 .bg-black {
     background-color: #333;
+}
+
+/* ==== Back to Top Button ==== */
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
 }
