@@ -1,5 +1,5 @@
-# :coffee: Roastery 42° Landing Page :coffee:
-Frontend for imaginary roastery.
+# Roastery 42° Landing Page 
+Frontend for imaginary roastery. Free project.
 
 ## Technologies
 * HTML
